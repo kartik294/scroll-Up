@@ -1,0 +1,74 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #262626;
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    background: #2fe05e;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.5s;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #212322;
+    text-decoration: none;
+  }
+  
+  header.active {
+    top: -80px;
+  }
+  
+  header ul {
+    display: flex;
+  }
+  
+  header ul li {
+    list-style: none;
+  }
+  
+  header ul li a {
+    color: #212322; /* Corrected color code */
+    padding: 0 20px;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  section {
+    padding: 150px 50px 100px;
+  }
+  
+  section h2 {
+    font-size: 3rem;
+    line-height: 1em;
+    color: #fff;
+  }
+  
+  section h2 span {
+    font-size: 0.7em;
+    color: #2fe050;
+  }
+  
+  p {
+    color: #9f9f9f;
+    font-size: 1.05em;
+  }
+  
